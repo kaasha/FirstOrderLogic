@@ -1,0 +1,13 @@
+For each query, determine if that query can be inferred from the knowledge base or not, one query per line:
+<ANSWER 1>
+…
+<ANSWER NQ>
+where
+each answer should be either TRUE if you can prove that the corresponding query sentence is true given the
+knowledge base, or FALSE if you cannot.
+
+For example in input.txt:
+Output.txt:
+
+TRUE
+FALSE
